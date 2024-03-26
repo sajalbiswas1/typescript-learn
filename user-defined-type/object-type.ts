@@ -1,15 +1,15 @@
-let users: object[];
+let users9: object[];
 users = []
 
-let user1: {name: string, userId: number}
-user1 = {name: "Sajal", userId: 1234};
-users.push(user1)
+let user6: {name: string, userId: number}
+user6 = {name: "Sajal", userId: 1234};
+users.push(user6)
 
-let user2: {name: string, userId: number}
-user2 = {name: "Rahim", userId: 234};
-users.push(user2)
-// console.log(users)
+let user7: {name: string, userId: number}
+user7 = {name: "Rahim", userId: 234};
+users.push(user7)
+// console.log(users4)
 
-for (const key in users){
-    console.log(users[key]["name"])
+for (const key in users9){
+    console.log(users9[key]["name"])
 }
